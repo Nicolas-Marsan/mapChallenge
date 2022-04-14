@@ -1,16 +1,17 @@
 import React from "react";
 
 import Map from "../components/Map"
-import credentials from "../credentials"
+
 
 
 
 function Home(props) {
   const enviarDatos = () => <p>hola</p>;
   const handleInputChange = () => <p>hola</p>;
- const mapUrl = `https://maps.googleapis.com/maps/api/js?key=${credentials}`
+ 
+ const mapUrl = `https://maps.googleapis.com/maps/api/js?key=AIzaSyD3ngevfqXCIfiv2k95L1q5cBGb2zjluIA`
   
-
+ 
   
 
   return (
